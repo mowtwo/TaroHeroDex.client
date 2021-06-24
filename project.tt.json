@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "HeroDex",
+  "description": "练手的风暴英雄图鉴",
+  "appid": "wxf0bee10c88ae11a8",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
