@@ -2,9 +2,9 @@
   "miniprogramRoot": "./dist",
   "projectname": "HeroDex",
   "description": "练手的风暴英雄图鉴",
-  "appid": "touristappid",
+  "appid": "wxf0bee10c88ae11a8",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": false,
     "postcss": false,
     "minified": false
