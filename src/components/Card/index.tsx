@@ -1,4 +1,5 @@
 import { View, Image } from '@tarojs/components'
+import { baseUrl } from '../../utils/request'
 import './index.scss'
 
 type Props = {
@@ -6,6 +7,7 @@ type Props = {
   name: string
   role?: string
 }
+
 export const Card = (props: Props) => {
   return (
     <View className="card">
@@ -14,6 +16,15 @@ export const Card = (props: Props) => {
       </View>
       <View className="card__info">
         <View className="card__info-name">{props.name}</View>
+        <View
+          className={[
+            'card__info-role',
+            `card__info-role-${props.role ?? 'tank'}`,
+          ].join(' ')}
+          style={{
+            backgroundImage: `url(${baseUrl + '/images/hero_roles.png'})`,
+          }}
+        ></View>
       </View>
     </View>
   )

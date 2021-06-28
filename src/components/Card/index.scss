@@ -28,7 +28,33 @@
     justify-content: flex-end;
     &-name {
       color: #fff;
-      margin-right: 30px;
+      margin-right: 10px;
+    }
+    &-role {
+      $yOffset: -172px;
+      margin-right: 10px;
+      width: 60px;
+      height: 60px;
+      background-repeat: no-repeat;
+      background-position: -4px -4px;
+      &-tank {
+        background-position: -4px #{$yOffset};
+      }
+      &-bruiser {
+        background-position: -74px #{$yOffset};
+      }
+      &-healer {
+        background-position: -140px #{$yOffset};
+      }
+      &-support {
+        background-position: -222px #{$yOffset};
+      }
+      &-melee-assassin {
+        background-position: -300px #{$yOffset};
+      }
+      &-ranged-assassin {
+        background-position: -380px #{$yOffset};
+      }
     }
   }
 }
