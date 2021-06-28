@@ -1,0 +1,39 @@
+.search {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  &__more {
+    width: 30%;
+    height: 90%;
+    box-sizing: border-box;
+    background-image: radial-gradient(#3d1779, #1c1540);
+    border: 5px solid #357eb1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e8feff;
+    transition: all 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__input {
+    margin-left: 10px;
+    flex: 1;
+    height: 90%;
+    box-sizing: border-box;
+    background-image: radial-gradient(#3d1779, #1c1540);
+    border: 5px solid #357eb1;
+    padding: 4px;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    &-el {
+      height: 100%;
+      background-color: #fff;
+      padding: 0 20px;
+      flex: 1;
+    }
+  }
+}

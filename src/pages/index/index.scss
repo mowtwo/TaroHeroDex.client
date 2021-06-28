@@ -1,5 +1,8 @@
-.scroll-view {
+.app {
   height: 100vh;
   background-image: linear-gradient(to bottom, #412354, #2a455a);
-  padding-bottom: 20px;
+  .scroll-view {
+    height: calc(100vh - 80px);
+    padding-bottom: 20px;
+  }
 }
